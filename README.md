@@ -13,7 +13,7 @@ Open to software engineering roles.
 | Project | What it is | Stack |
 |---|---|---|
 | [**Stone Harbor Invitational Tennis**](https://github.com/joshmgrey/stone-harbor-tennis) · [live](https://stone-harbor-invitational-tennis.org/) | Signup and scheduling site for a real doubles league. 19 zero-downtime deploys, private RDS database, race-condition-tested capacity checks (94% coverage). | TypeScript, Next.js, Prisma, PostgreSQL, AWS CDK, ECS Fargate |
-| [**Account Dashboard**](https://github.com/joshmgrey/account-dashboard-poc) | Authenticated banking dashboard with layered abuse controls and concurrency-safe transfers: zero balance drift across a 1,000-transfer load test (~775 req/sec, 65 ms p95). | Java 21, Spring Boot, Spring Security, React, TypeScript |
+| [**Account Dashboard**](https://github.com/joshmgrey/account-dashboard-poc) | Authenticated banking dashboard with layered abuse controls and concurrency-safe transfers: zero balance drift across three 1,000-transfer load tests (943–998 req/sec, 60–99 ms p95). | Java 21, Spring Boot, Spring Security, React, TypeScript |
 | [**Fantasy Draft Consultant**](https://github.com/joshmgrey/fantasy-draft-consultant) | Draft assistant that pairs the Claude API with web search to return risk-scored Draft/Pass verdicts. Analysis runs as its own microservice, and both services deploy on Kubernetes (97% coverage). | Python, Flask, Docker, Kubernetes |
 | [**Valley Sync**](https://github.com/joshmgrey/Valley-Sync) | Real-time collaborative task board with GitHub OAuth. | Next.js, Socket.io, PostgreSQL |
 
